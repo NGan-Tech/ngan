@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
+/* helpers */
+.container {
+  margin: 0 auto;
+  width: 1170px;
+}
+
