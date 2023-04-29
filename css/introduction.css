@@ -1,0 +1,93 @@
+.wave_container {
+  max-width: 1440px;
+  position: absolute;
+  z-index: -1;
+  overflow-y: hidden;
+  top: 200px;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: row;
+}
+
+.introduction_content {
+  flex: 1;
+}
+
+.introduction_img {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 35px;
+}
+
+.introduction_img img {
+  height: auto;
+  max-width: 100%;
+}
+
+.introduction_content__h1 {
+  font-family: 'Neue Machina';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 110px;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(271.94deg, #BDFEFF -1.93%, #0AF9FA 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  background-clip: text;
+  margin-top: 130px;
+  margin-bottom: 0;
+}
+
+.introduction_content__h2 {
+  font-family: 'Neue Machina';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 75px;
+  line-height: 72px;
+  display: flex;
+  align-items: center;
+  color: #BDFEFF;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.introduction_content__p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #BDFEFF;
+  margin-top: 40px;
+}
+
+.button {
+  cursor: pointer;
+  background: transparent;
+  width: 330px;
+  height: 75px;
+  border: 2px solid #0AF9FA;
+  border-radius: 10px;
+  margin-top: 55px;
+}
+
+.button_span {
+  font-family: 'Neue Machina';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 31px;
+  background: linear-gradient(271.94deg, #BDFEFF -1.93%, #0AF9FA 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
