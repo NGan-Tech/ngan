@@ -1,0 +1,36 @@
+.mission {
+    margin-bottom: 150px;
+    display: flex;
+    
+}
+
+.mission_content {
+    max-width: 661px;
+}
+
+.mission-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 0.96;
+    background: linear-gradient(271.94deg, #BDFEFF -1.93%, #0AF9FA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.mission-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.22;
+    color: #BDFEFF;
+
+}
+
+.mission_img {
+    margin-top: 6.25%;
+}

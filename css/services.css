@@ -1,0 +1,69 @@
+.services {
+    margin-bottom: 150px;
+}
+.services-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 1.2;
+    background: linear-gradient(271.94deg, #BDFEFF -1.93%, #0AF9FA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.services_cards-1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20.5px;
+}
+.services_card-cnt {
+    border: #0AF9FA 5px solid;
+    border-radius: 40px;
+    margin-bottom: 40px;
+    width: 449px;
+    
+}
+
+.img_title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 43px;
+    color: #BDFEFF;
+    text-align: center;
+}
+
+.services_cards-2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20.5px;
+}
+.services_card-cnt-2 {
+    border: #0AF9FA 5px solid;
+    border-radius: 40px;
+    width: 449px;
+}
+
+.img_title-2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 43px;
+    color: #BDFEFF;
+    text-align: center;
+}
+
+.services_cards-img {
+    position: relative;
+    left: -2px;
+}
+
+.services_cards-img-2 {
+    position: relative;
+    left: -2px; 
+}

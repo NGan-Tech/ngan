@@ -1,0 +1,78 @@
+.card-cnt {
+    width: 415px;
+    height: 496px;
+}
+
+.advantages {
+    margin-bottom: 150px;
+}
+.advantages-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 1.2;
+    background: linear-gradient(271.94deg, #BDFEFF -1.93%, #0AF9FA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.advantages_cards-1 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 134px;
+}
+
+
+
+
+
+.advantages_cards-2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card_title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 39px;
+    text-align: center;
+    background: linear-gradient(271.94deg, #BDFEFF -1.93%, #0AF9FA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.card_text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #BDFEFF;
+}
+
+.arrow_img {
+    margin-left: 80px;
+}
+
+.tag-card_img {
+    margin-left: 27px;
+}
+
+.diagram_img {
+    margin-left: 67px;
+}
+
+.option_img {
+    margin-left: 80px;
+}
+
+.design_img {
+    margin-left: 90px;
+}

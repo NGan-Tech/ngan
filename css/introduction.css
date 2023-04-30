@@ -9,6 +9,7 @@
 .introduction {
   display: flex;
   flex-direction: row;
+  margin-bottom: 150px;
 }
 
 .introduction_content {
@@ -67,27 +68,27 @@
   align-items: center;
   color: #BDFEFF;
   margin-top: 40px;
+  margin-bottom: 45px;
 }
 
 .button {
-  cursor: pointer;
-  background: transparent;
-  width: 330px;
-  height: 75px;
-  border: 2px solid #0AF9FA;
   border-radius: 10px;
-  margin-top: 55px;
+    width: 330px;
+    height: 75px;
+    border: 2px solid #0AF9FA;
+    font-family: 'Inter';
+    background: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 1.2;
+    color: #0AF9FA;
+    transition: all .2s ease-in ;
 }
 
-.button_span {
-  font-family: 'Neue Machina';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 25px;
-  line-height: 31px;
-  background: linear-gradient(271.94deg, #BDFEFF -1.93%, #0AF9FA 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
+.button:hover {
+    background: #0AF9FA;
+    color: black;
 }
+
+
