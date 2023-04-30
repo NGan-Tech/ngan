@@ -37,6 +37,7 @@
   position: relative;
   color: #BDFEFF;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .animation_link::after {
