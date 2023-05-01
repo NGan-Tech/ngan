@@ -6,6 +6,33 @@
   top: 200px;
 }
 
+.wave_container2{
+  max-width: 1440px;
+  position: absolute;
+  z-index: -1;
+  overflow-y: hidden;
+  top: 3700px;
+}
+
+.wave_container3{
+  max-width: 98vw;
+  position: absolute;
+  z-index: -1;
+  overflow-y: hidden;
+  top: 4800px;
+  left: 1px;
+}
+
+.wave_container4{
+  max-width: 98vw;
+  position: absolute;
+  z-index: -1;
+  overflow-y: hidden;
+  top: 6500px;
+  right: 1px;
+}
+
+
 .introduction {
   display: flex;
   flex-direction: row;

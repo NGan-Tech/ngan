@@ -41,6 +41,7 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 20.5px;
+    max-width: 1400px;
 }
 .services_card-cnt-2 {
     border: #0AF9FA 5px solid;

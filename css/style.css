@@ -5,10 +5,11 @@
 
 body {
 
-  background: linear-gradient(283.99deg, #0AF9FA -638.99%, #19181C 102.95%);
+  background: linear-gradient(283.99deg, #0AF9FA -638.99%, #19181C 102.95%) no-repeat;
   /*background: rgb(7,80,78);*/
   /*background: linear-gradient(283deg, rgba(7,80,78,1) 9%, rgba(6,69,69,1) 14%, rgba(17,57,60,1) 39%, rgba(30,30,32,1) 76%);*/
 }
+
 
 a {
   text-decoration: none;
