@@ -67,6 +67,7 @@
   background: rgba(255, 255, 255, 0.01);
   border: 2px solid #0AF9FA;
   backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
   border-radius: 10px;
   padding-left: 10px;
   margin-bottom: 30px;
@@ -164,6 +165,7 @@
   resize: none;
   background: transparent;
   backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
   border: 2px solid #0AF9FA;
   border-radius: 10px;
   color: #0af9fa;
@@ -218,6 +220,7 @@ textarea::placeholder {
   text-align: center;
   background: rgba(255, 255, 255, 0.01);
   backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
   line-height: 22px;
   width: 213px;
   height: 75px;
@@ -280,6 +283,7 @@ textarea::placeholder {
 .select {
   font-family: 'Inter', sans-serif;
   backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
   color: #0AF9FA;
   margin: 0 auto;
   position: relative;

@@ -1,0 +1,14 @@
+Index: css/laptop.css
+===================================================================
+diff --git a/css/laptop.css b/css/laptop.css
+--- a/css/laptop.css
++++ b/css/laptop.css
+@@ -60,7 +60,7 @@
+     .modal_form__container2 {
+         margin-top: 30px;
+     }
+-    .
++
+     .modal_wrapper {
+       margin-top: 24px;
+     }

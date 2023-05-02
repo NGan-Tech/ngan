@@ -69,6 +69,7 @@ function sendMessage() {
       .catch((error) => {
         console.log(error);
       });
+    modal()
   }
   else {
     axios.get(`https://api.telegram.org/bot6179593214:AAH-21Aa5LevKZURInkoBpcdjwYNzhiGQmQ/sendMessage?chat_id=${chatId}&text=${messageText}`)
@@ -78,5 +79,6 @@ function sendMessage() {
       .catch((error) => {
         console.log(error);
       });
+    modal()
   }
 }
