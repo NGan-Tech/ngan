@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8eaa80ec-628f-4e8d-861e-277c4c6447be" name="Changes" comment="add adaptive for mobile, add integrations with tg">
-      <change afterPath="$PROJECT_DIR$/js/adaptiveImg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/designpad 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/finalgear 1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_02_05_2023_11_47__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_02_05_2023_11_47__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/advantages.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/advantages.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/modal.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/modal.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/phone.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/phone.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/services.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/services.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/anim.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/anim.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/bot.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/bot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/corp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/crypto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/finance.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/finance.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/nft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/option.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tggame.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/tggame.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/webdev.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/webgame.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
