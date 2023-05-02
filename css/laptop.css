@@ -12,16 +12,16 @@
     }
 
      .wave_container {
-        max-width: 99vw;
+        max-width: 97vw;
     }
     .wave_container2 {
-        max-width: 99vw;
+        max-width: 97vw;
     }
     .wave_container3 {
-        max-width: 99vw;
+        max-width: 97vw;
     }
     .wave_container4 {
-        max-width: 99vw;
+        max-width: 97vw;
     }
 
     .mission_content {
@@ -60,7 +60,29 @@
     .modal_form__container2 {
         margin-top: 30px;
     }
-    .
+    .modal_cross {
+      top: 35px
+    }
+    .modal_cross img {
+      height: 30px;
+      width: 30px;
+    }
+    .modal_form__inputs {
+      height: 50px;
+      margin-bottom: 20px;
+    }
+    .modal_form__textarea {
+      height: 65px;
+    }
+    .select, .select__header {
+      height: 50px;
+    }
+    .modal_button, .input-file {
+      height: 55px;
+    }
+    .footer_span {
+      margin-left: 2vw;
+    }
     .modal_wrapper {
       margin-top: 24px;
     }
