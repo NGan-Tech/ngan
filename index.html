@@ -19,7 +19,10 @@
   <link rel="stylesheet" href="css/scrollingLine.css">
   <link rel="stylesheet" href="css/modal.css">
   <link rel="stylesheet" href="./css/tablet.css">
+  <link rel="stylesheet" href="css/phone.css">
+  <link rel="stylesheet" href="css/laptop.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
 </head>
 <body>
 
@@ -191,12 +194,38 @@
 
       <div class="header__burger none">
         <nav class="burger">
+          <svg class="waves4 wave_container4_burger" style="position: absolute;z-index: 9999; top: 1px" width="1440" height="791" viewBox="0 0 1440 791" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g opacity="0.8">
+              <path class="wave4" d="M-271 611C-237.121 508.798 -68.2527 325.524 336.186 410.042C740.625 494.561 861.974 331.749 872.094 239.778C874.88 105.375 996.963 -115.613 1463 75.6518" stroke="#BDFEFF"/>
+              <path class="wave4" d="M-3 790C30.8792 687.798 199.747 504.524 604.186 589.042C1008.62 673.561 1129.97 510.749 1140.09 418.778C1142.88 284.375 1264.96 63.3867 1731 254.652" stroke="#0AF9FA"/>
+              <path class="wave4" d="M-258 620C-224.121 517.798 -55.2527 334.524 349.186 419.042C753.625 503.561 874.974 340.749 885.094 248.778C887.88 114.375 1009.96 -106.613 1476 84.6518" stroke="#B5FEFF"/>
+              <path class="wave4" d="M-246 628C-212.121 525.798 -43.2527 342.524 361.186 427.042C765.625 511.561 886.974 348.749 897.094 256.778C899.88 122.375 1021.96 -98.6133 1488 92.6518" stroke="#ACFEFF"/>
+              <path class="wave4" d="M-233 637C-199.121 534.798 -30.2527 351.524 374.186 436.042C778.625 520.561 899.974 357.749 910.094 265.778C912.88 131.375 1034.96 -89.6133 1501 101.652" stroke="#A4FEFE"/>
+              <path class="wave4" d="M-220 645C-186.121 542.798 -17.2527 359.524 387.186 444.042C791.625 528.561 912.974 365.749 923.094 273.778C925.88 139.375 1047.96 -81.6133 1514 109.652" stroke="#9BFDFE"/>
+              <path class="wave4" d="M-207 654C-173.121 551.798 -4.25268 368.524 400.186 453.042C804.625 537.561 925.974 374.749 936.094 282.778C938.88 148.375 1060.96 -72.6133 1527 118.652" stroke="#93FDFE"/>
+              <path class="wave4" d="M-195 662C-161.121 559.798 7.74732 376.524 412.186 461.042C816.625 545.561 937.974 382.749 948.094 290.778C950.88 156.375 1072.96 -64.6133 1539 126.652" stroke="#8AFDFE"/>
+              <path class="wave4" d="M-182 671C-148.121 568.798 20.7473 385.524 425.186 470.042C829.625 554.561 950.974 391.749 961.094 299.778C963.88 165.375 1085.96 -55.6133 1552 135.652" stroke="#82FDFD"/>
+              <path class="wave4" d="M-169 679C-135.121 576.798 33.7473 393.524 438.186 478.042C842.625 562.561 963.974 399.749 974.094 307.778C976.88 173.375 1098.96 -47.6133 1565 143.652" stroke="#79FCFD"/>
+              <path class="wave4" d="M-156 688C-122.121 585.798 46.7473 402.524 451.186 487.042C855.625 571.561 976.974 408.749 987.094 316.778C989.88 182.375 1111.96 -38.6133 1578 152.652" stroke="#70FCFD"/>
+              <path class="wave4" d="M-144 696C-110.121 593.798 58.7473 410.524 463.186 495.042C867.625 579.561 988.974 416.749 999.094 324.778C1001.88 190.375 1123.96 -30.6133 1590 160.652" stroke="#68FCFD"/>
+              <path class="wave4" d="M-131 705C-97.1208 602.798 71.7473 419.524 476.186 504.042C880.625 588.561 1001.97 425.749 1012.09 333.778C1014.88 199.375 1136.96 -21.6133 1603 169.652" stroke="#5FFCFC"/>
+              <path class="wave4" d="M-118 713C-84.1208 610.798 84.7473 427.524 489.186 512.042C893.625 596.561 1014.97 433.749 1025.09 341.778C1027.88 207.375 1149.96 -13.6133 1616 177.652" stroke="#57FBFC"/>
+              <path class="wave4" d="M-105 722C-71.1208 619.798 97.7473 436.524 502.186 521.042C906.625 605.561 1027.97 442.749 1038.09 350.778C1040.88 216.375 1162.96 -4.61333 1629 186.652" stroke="#4EFBFC"/>
+              <path class="wave4" d="M-93 730C-59.1208 627.798 109.747 444.524 514.186 529.042C918.625 613.561 1039.97 450.749 1050.09 358.778C1052.88 224.375 1174.96 3.38667 1641 194.652" stroke="#46FBFC"/>
+              <path class="wave4" d="M-80 739C-46.1208 636.798 122.747 453.524 527.186 538.042C931.625 622.561 1052.97 459.749 1063.09 367.778C1065.88 233.375 1187.96 12.3867 1654 203.652" stroke="#3DFBFB"/>
+              <path class="wave4" d="M-67 747C-33.1208 644.798 135.747 461.524 540.186 546.042C944.625 630.561 1065.97 467.749 1076.09 375.778C1078.88 241.375 1200.96 20.3867 1667 211.652" stroke="#35FAFB"/>
+              <path class="wave4" d="M-54 756C-20.1208 653.798 148.747 470.524 553.186 555.042C957.625 639.561 1078.97 476.749 1089.09 384.778C1091.88 250.375 1213.96 29.3867 1680 220.652" stroke="#2CFAFB"/>
+              <path class="wave4" d="M-42 764C-8.12078 661.798 160.747 478.524 565.186 563.042C969.625 647.561 1090.97 484.749 1101.09 392.778C1103.88 258.375 1225.96 37.3867 1692 228.652" stroke="#24FAFB"/>
+              <path class="wave4" d="M-29 773C4.87922 670.798 173.747 487.524 578.186 572.042C982.625 656.561 1103.97 493.749 1114.09 401.778C1116.88 267.375 1238.96 46.3867 1705 237.652" stroke="#1BFAFA"/>
+              <path class="wave4" d="M-16 781C17.8792 678.798 186.747 495.524 591.186 580.042C995.625 664.561 1116.97 501.749 1127.09 409.778C1129.88 275.375 1251.96 54.3867 1718 245.652" stroke="#13F9FA"/>
+            </g>
+          </svg>
           <ul class="burger__list">
-            <li class="burger__list_item"><a class="burger__link animation_link" href="#">Home</a></li>
-            <li class="burger__list_item"><a class="burger__link animation_link" href="#"> Наши работы</a></li>
-            <li class="burger__list_item"><a class="burger__link animation_link" href="#">Преимущества</a></li>
-            <li class="burger__list_item"><a class="burger__link animation_link" href="#">Услуги</a></li>
-            <li class="burger__list_item"><a class="burger__link animation_link" href="#">Контакты</a></li>
+            <li class="burger__list_item" onclick="fixBurger()"><a class="burger__link animation_link" href="#site-header">Home</a></li>
+            <li class="burger__list_item" onclick="fixBurger()"><a class="burger__link animation_link" href="#ourWork"> Наши работы</a></li>
+            <li class="burger__list_item" onclick="fixBurger()"><a class="burger__link animation_link" href="#advantages">Преимущества</a></li>
+            <li class="burger__list_item" onclick="fixBurger()"><a class="burger__link animation_link" href="#services">Услуги</a></li>
+            <li class="burger__list_item" onclick="fixBurger()"><a class="burger__link animation_link" href="#footer">Контакты</a></li>
           </ul>
         </nav>
       </div>
@@ -336,32 +365,27 @@
       <div class="services_card-cnt">
 
         <img src="./public/webdev.png" alt="NGan tech webdev" class="services_cards-img">
-        <h3 class="img_title">Web разработки</h3>
+
       </div>
 
       <div class="services_card-cnt">
-        <img src="./public/webdev.png" alt="NGan tech webdev" class="services_cards-img">
-        <h3 class="img_title">Криптобиржы</h3>
+        <img src="./public/crypto.png" alt="NGan tech webdev" class="services_cards-img">
       </div>
 
       <div class="services_card-cnt">
-        <img src="./public/webdev.png" alt="NGan tech webdev" class="services_cards-img">
-        <h3 class="img_title">NFT маркетплейсов</h3>
+        <img src="./public/nft.png" alt="NGan tech webdev" class="services_cards-img">
       </div>
 
       <div class="services_card-cnt">
-        <img src="./public/webdev.png" alt="NGan tech webdev" class="services_cards-img">
-        <h3 class="img_title">Боты<br>для мессенджеров</h3>
+        <img src="./public/bot.png" alt="NGan tech webdev" class="services_cards-img">
       </div>
 
       <div class="services_card-cnt">
-        <img src="./public/webdev.png" alt="NGan tech webdev" class="services_cards-img">
-        <h3 class="img_title">Корпоративные<br>платформы</h3>
+        <img src="./public/corp.png" alt="NGan tech webdev" class="services_cards-img">
       </div>
 
       <div class="services_card-cnt">
-        <img src="./public/webdev.png" alt="NGan tech webdev" class="services_cards-img">
-        <h3 class="img_title">Финансовые<br> технологии</h3>
+        <img src="./public/finance.png" alt="NGan tech webdev" class="services_cards-img">
       </div>
 
     </div>
@@ -369,13 +393,11 @@
     <div class="services_cards-2">
 
       <div class="services_card-cnt-2">
-        <img src="./public/webdev.png" alt="NGan tech webdev" class="services_cards-img-2">
-        <h3 class="img_title-2">Браузерный<br> Gamedev</h3>
+        <img src="./public/webgame.png" alt="NGan tech webdev" class="services_cards-img-2">
       </div>
 
       <div class="services_card-cnt-2">
-        <img src="./public/webdev.png" alt="NGan tech webdev" class="services_cards-img-2">
-        <h3 class="img_title-2">Telegram<br> Gamedev</h3>
+        <img src="./public/tggame.png" alt="NGan tech webdev" class="services_cards-img-2">
       </div>
 
     </div>
@@ -398,7 +420,7 @@
 
 
 <div class="modal" id="modal">
-  <svg style="z-index: -1" class="waves wave_container" width="1440" height="1249" viewBox="0 0 1440 1249" fill="none"
+  <svg style="z-index: -5" class="waves wave_container" width="1440" height="1249" viewBox="0 0 1440 1249" fill="none"
        xmlns="http://www.w3.org/2000/svg">
     <path class="wave" opacity="0.3"
           d="M-245 144.714C-188.352 75.0069 12.4837 -46.9493 362.646 22.8785C712.808 92.7064 747.982 239.272 678.819 416.266C578.628 672.665 917.53 953.432 1283.5 774.498C1352.66 728.633 1540.39 658.36 1738 744.19"
@@ -482,36 +504,39 @@
         <input class="modal_form__inputs" type="tel" name="telephone" id="telephone" placeholder="Телефон" required>
       </div>
       <div class="modal_form__input-cnt2">
-        <input class="modal_form__inputs" type="text" name="company " id="company" placeholder="Компания">
+        <input class="modal_form__inputs" type="text" name="company" id="company" placeholder="Компания" required>
         <input class="modal_form__inputs" type="email" name="email" id="email" required placeholder="E-Mail">
       </div>
       <div class="modal_form__input-cnt3">
-        <div class="select">
-          <select class="">
-            <option selected>Бюджет компании</option>
-            <option>До 100 тыс.</option>
-            <option>До 250 тыс.</option>
-            <option>До 500 тыс.</option>
-            <option>До 1 млн</option>
-            <option>Больше 1 млн.</option>
-          </select>
-          <div class="select_arrow">
+        <div class="select ">
+          <div class="select__header">
+            <div class="select__current_cnt">
+              <span class="select__current">Бюджет проекта</span>
+            </div>
+            <div class="select__icon">&#8964;</div>
+          </div>
+          <div class="select__body">
+            <div class="select__item">До 100 тыс.</div>
+            <div class="select__item">До 250 тыс.</div>
+            <div class="select__item">До 500 тыс.</div>
+            <div class="select__item">До 1 млн.</div>
+            <div class="select__item">От 1 млн</div>
           </div>
         </div>
       </div>
       <div class="modal_form__input-cnt4">
-        <textarea class="modal_form__textarea" placeholder="Сообщение"></textarea>
+        <textarea class="modal_form__textarea" placeholder="Сообщение" id="message" required></textarea>
       </div>
       <div class="modal_form__container">
         <p class="modal_form__p">В чём заключается ваша задача? В какие сроки?<br>
           Пару слов о компании</p>
         <label class="input-file">
-          <input type="file" name="file">
+          <input type="file" id="file" name="file">
           <span>Выберите файл</span>
         </label>
       </div>
       <div class="modal_form__container2">
-        <button class="modal_button button">Отправить</button>
+        <button class="modal_button button" onclick="sendMessage()">Отправить</button>
         <p class="modal_form__container2_p">Нажимая на кнопку, вы соглашаетесь с <br><a class="animation_link">Политикой персональных данных</a></p>
       </div>
     </form>
@@ -537,10 +562,12 @@
 
 
 </body>
-
+<script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
 <script src="./js/burger.js"></script>
 <script src="js/anime.js"></script>
 <script src="js/anim.js"></script>
 <script src="js/scrollingLine.js"></script>
 <script src="js/modal.js"></script>
+<script src="js/select.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
 </html>

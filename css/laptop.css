@@ -1,0 +1,67 @@
+
+
+@media (max-width: 1300px) and (min-width: 1000px) {
+    .introduction_content {
+        margin-left: 30px;
+    }
+    .introduction_content__h2 {
+        font-size: 60px;
+    }
+    .introduction_img {
+        margin-right: 40px;
+    }
+
+     .wave_container {
+        max-width: 99vw;
+    }
+    .wave_container2 {
+        max-width: 99vw;
+    }
+    .wave_container3 {
+        max-width: 99vw;
+    }
+    .wave_container4 {
+        max-width: 99vw;
+    }
+
+    .mission_content {
+        margin-left: 30px;
+    }
+
+    .mission_img {
+        margin-right: 10px;
+    }
+
+    .ourWork_title {
+        margin-left: 30px;
+    }
+
+    .advantages-title {
+        margin-left: 30px;
+    }
+
+    .services-title {
+        margin-left: 30px;
+    }
+
+    .services_cards-1 {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .finally-title {
+        margin-left: 30px;
+    }
+
+    .finally-button {
+        margin-left: 30px;
+    }
+
+    .modal_form__container2 {
+        margin-top: 30px;
+    }
+    .
+    .modal_wrapper {
+      margin-top: 24px;
+    }
+}
