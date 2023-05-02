@@ -7,9 +7,9 @@
     margin-bottom: 150px;
 }
 .advantages-title {
-    font-family: 'Inter';
+    font-family: 'Zekton';
     font-style: normal;
-    font-weight: 700;
+    font-weight: normal;
     font-size: 75px;
     line-height: 1.2;
     background: linear-gradient(271.94deg, #BDFEFF -1.93%, #0AF9FA 100%);
@@ -34,9 +34,9 @@
 }
 
 .card_title {
-    font-family: 'Inter';
+    font-family: 'Zekton';
     font-style: normal;
-    font-weight: 700;
+    font-weight: normal;
     font-size: 40px;
     line-height: 39px;
     text-align: center;

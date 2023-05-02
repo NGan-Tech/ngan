@@ -28,7 +28,7 @@
   position: absolute;
   z-index: -1;
   overflow-y: hidden;
-  top: 6500px;
+  top: 6260px;
   right: 1px;
 }
 
@@ -56,9 +56,9 @@
 }
 
 .introduction_content__h1 {
-  font-family: 'Neue Machina';
+  font-family: 'Zekton';
   font-style: normal;
-  font-weight: 700;
+  font-weight: normal;
   font-size: 100px;
   line-height: 110px;
   display: flex;
@@ -73,9 +73,9 @@
 }
 
 .introduction_content__h2 {
-  font-family: 'Neue Machina';
+  font-family: 'Zekton';
   font-style: normal;
-  font-weight: 700;
+  font-weight: normal;
   font-size: 75px;
   line-height: 72px;
   display: flex;

@@ -87,7 +87,7 @@ waves4.forEach((wave4, index) => {
     targets: wave4,
     strokeDashoffset: [-length, 0],
     easing: 'easeInOutSine',
-    duration: 3350,
+    duration: 2000,
     delay: index * 275, // Устанавливаем задержку для последовательного запуска анимаций
     direction: 'alternate',
     loop: true

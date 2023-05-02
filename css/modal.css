@@ -169,6 +169,7 @@
   color: #0af9fa;
   padding-top: 10px;
   padding-left: 15px;
+  outline:none;
 }
 
 textarea::placeholder {
@@ -272,4 +273,95 @@ textarea::placeholder {
   font-size: 16px;
   width: 213px;
   height: 75px;
+}
+
+
+
+.select {
+  font-family: 'Inter', sans-serif;
+  backdrop-filter: blur(2px);
+  color: #0AF9FA;
+  margin: 0 auto;
+  position: relative;
+  width: 670px;
+}
+
+.select.is-active .select__body {
+  display: block;
+}
+
+
+.select__current_cnt {
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+}
+
+.select__header {
+  width: 670px;
+  height: 75px;
+  border: 2px solid #0AF9FA;
+  border-radius: 9px;
+  cursor: pointer;
+  display: flex;
+  background: rgba(255, 255, 255, 0.01);
+}
+
+.select__current {
+  font-size: 18px;
+  line-height: 24px;
+  padding: 8px;
+}
+
+.select__icon {
+  font-size: 32px;
+  display: flex;
+  flex-shrink: 0;
+  height: 40px;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 40px;
+  padding-bottom: 10px;
+}
+
+.select__body {
+  width: 670px;
+  font-family: 'Inter', sans-serif;
+  border: 1px solid #0AF9FA;
+  border-top: 0;
+  display: none;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  backdrop-filter: blur(2px);
+  border-radius: 5px;
+  z-index: 45;
+}
+
+.select__item {
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 8px;
+}
+
+.select__item:hover {
+  background-color: #0AF9FA;
+  color: black;
+}
+
+.modal_form__input-cnt3 {
+  z-index: 9999;
+  position: sticky;
+  margin-bottom: 20px;
+}
+
+.modal_form__input-cnt4 {
+  position: sticky;
+  z-index: 0;
 }
