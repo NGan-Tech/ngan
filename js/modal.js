@@ -15,29 +15,21 @@ let text;
 let select = function () {
   let selectHeader = document.querySelectorAll('.select__header');
   let selectItem = document.querySelectorAll('.select__item');
-
   selectHeader.forEach(item => {
     item.addEventListener('click', selectToggle)
   });
-
   selectItem.forEach(item => {
     item.addEventListener('click', selectChoose)
   });
-
   function selectToggle() {
     this.parentElement.classList.toggle('is-active');
   }
-
   function selectChoose() {
     text = this.innerText,
       select = this.closest('.select'),
       currentText = select.querySelector('.select__current');
-
     currentText.innerText = text;
     select.classList.remove('is-active');
-
-    console.log(text);
-
   }
 };
 select();
@@ -53,7 +45,6 @@ function sendMessage() {
   const company = document.getElementById("company").value;
   const money = text;
   const file = document.getElementById("file").files[0];
-  console.log(file)
   const chatId = '-1001818216714'; // замените на ваш ID чата
   // const chatId = '-940421452'; // замените на ваш ID чата
   const messageText = `Имя: ${name} \n Email: ${email} \n Телефон: ${tel} \n Компания: ${company} \n Бюджет: ${money} \n Сообщение: ${message}`;

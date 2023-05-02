@@ -13,15 +13,17 @@
     background-clip: text;
     text-fill-color: transparent;
 }
+
 .services_cards-1 {
     display: flex;
     flex-wrap: wrap;
     gap: 20.5px;
 }
+
 .services_card-cnt {
     width: 449px;
     margin-bottom: 10px;
-    
+
 }
 
 .img_title {
@@ -59,9 +61,44 @@
 .services_cards-img {
     position: relative;
     left: -2px;
+    z-index: -1;
 }
+
+/*.services_cards__img-text {*/
+/*  position: absolute;*/
+/*  background: #0AF9FA;*/
+/*  border-radius: 0;*/
+/*  width: 500px;*/
+/*  height: 76px;*/
+/*  z-index: 1;*/
+/*  transform: rotate(90deg);*/
+/*  top: 5500px;*/
+/*  left: 70px;*/
+/*}*/
+
+.services_cards__img-text h2 {
+  font-family: 'Zekton', sans-serif;
+  writing-mode: vertical-rl;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 30px;
+  margin-left: 15px;
+}
+
+.services_cards__img-text {
+  width: 56px;
+  height: 500px;
+  margin-bottom: -500px;
+  display: flex;
+  align-items: center;
+  margin-left: 35px;
+  background-color: #0AF9FA;
+}
+
+
 
 .services_cards-img-2 {
     position: relative;
-    left: -2px; 
+    left: -2px;
+    z-index: -1;
 }
