@@ -29,6 +29,7 @@
     line-height: 1.2;
     color: #0AF9FA;
     transition: all .2s ease-in ;
+    cursor: pointer;
 }
 
 .finally-button:hover {

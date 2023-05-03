@@ -206,6 +206,12 @@ textarea::placeholder {
   display: inline-block;
 }
 
+.input-file__span {
+  max-width: 213px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
 .input-file span {
   font-family: Inter, sans-serif;
   font-size: 16px;
@@ -368,4 +374,27 @@ textarea::placeholder {
 .modal_form__input-cnt4 {
   position: sticky;
   z-index: 0;
+}
+
+.notification_success {
+  display: none;
+  position: fixed;
+  width: 337px;
+  background: #0AF9FA;
+  height: 114px;
+  top: 90vh;
+  left: 2vw;
+  border-radius: 10px;
+  z-index: 999999;
+}
+
+.notification_success__text {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  line-height: 22px;
+  align-items: center;
+  margin-left: 30px;
+  color: #000000;
 }
