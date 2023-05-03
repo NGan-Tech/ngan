@@ -456,6 +456,8 @@
     height: 50px;
   }
   .select, .select__header, .select__body {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     width: 92vw;
   }
   .modal_form__input-cnt4 {
