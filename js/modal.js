@@ -60,8 +60,7 @@ function sendMessage() {
   const company = document.getElementById("company").value;
   const money = text;
   const file = document.getElementById("file").files[0];
-  // const chatId = '-1001818216714';
-  const chatId = '-940421452';
+  const chatId = '-1001818216714';
   const messageText = `Имя: ${name} \n Email: ${email} \n Телефон: ${tel} \n Компания: ${company} \n Бюджет: ${money} \n Сообщение: ${message}`;
   const formData = new FormData();
   formData.append('chat_id', chatId);

@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8eaa80ec-628f-4e8d-861e-277c4c6447be" name="Changes" comment="fix card-tittle">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/advantages.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/advantages.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/modal.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/modal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/phone.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/phone.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/scrollingLine.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/scrollingLine.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/services.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/services.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/modal.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +65,8 @@
       <updated>1683016750000</updated>
       <workItem from="1683016754243" duration="1649000" />
       <workItem from="1683018709449" duration="1675000" />
-      <workItem from="1683111963284" duration="8488000" />
+      <workItem from="1683111963284" duration="8756000" />
+      <workItem from="1683123112205" duration="690000" />
     </task>
     <task id="LOCAL-00001" summary="fix card-tittle">
       <created>1683061564012</created>
